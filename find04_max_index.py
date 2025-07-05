@@ -5,4 +5,5 @@ def find_max_index(data):
         data: list of numbers
     returns: index of maximum number in the list
     """
-    return 0
+    a = max(data)
+    return data.index(a)
